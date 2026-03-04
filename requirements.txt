@@ -5,10 +5,9 @@ plotly==5.24.0
 requests==2.32.3
 pytz==2024.2
 ta==0.11.0
-# Versión de scikit-learn compatible con Railway
+# Versión de scikit-learn que SÍ funcionaba con tu IA
 scikit-learn==1.3.2
-joblib==1.4.2
-python-dotenv==1.0.1
-streamlit-autorefresh==1.0.1
-# Librería IQ Option estable
-iqoptionapi==6.8.0
+# Librería original que te funcionaba para conexión
+git+https://github.com/iqoptionapi/iqoptionapi.git@egg=iqoptionapi
+# Opcional: paquete para evitar bloqueos de IP
+requests[socks]==2.32.3
