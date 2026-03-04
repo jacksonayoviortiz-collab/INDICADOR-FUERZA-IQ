@@ -1,0 +1,3 @@
+libssl-dev
+gcc
+python3.10-dev
