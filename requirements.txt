@@ -5,9 +5,9 @@ plotly==5.24.0
 requests==2.32.3
 pytz==2024.2
 ta==0.11.0
-# Versión de scikit-learn que SÍ funcionaba con tu IA
-scikit-learn==1.3.2
-# Librería original que te funcionaba para conexión
-git+https://github.com/iqoptionapi/iqoptionapi.git@egg=iqoptionapi
-# Opcional: paquete para evitar bloqueos de IP
-requests[socks]==2.32.3
+scikit-learn==1.3.0
+joblib==1.4.2
+python-dotenv==1.0.1
+streamlit-autorefresh==1.0.1
+# Librería ORIGINAL que te funcionó para conexión
+git+https://github.com/williansandi/iqoptionapi-2025-Atualizada.git@egg=iqoptionapi
