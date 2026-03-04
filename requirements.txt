@@ -9,4 +9,5 @@ scikit-learn==1.5.2
 joblib==1.4.2
 python-dotenv==1.0.1
 streamlit-autorefresh==1.0.1
-git+https://github.com/williansandi/iqoptionapi-2025-Atualizada-.git#egg=iqoptionapi
+# Librería alternativa para IQ Option (más estable)
+git+https://github.com/iqoption/iqoption-api-python.git
