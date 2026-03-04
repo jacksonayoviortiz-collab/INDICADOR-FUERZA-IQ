@@ -9,5 +9,5 @@ scikit-learn==1.3.0
 joblib==1.4.2
 python-dotenv==1.0.1
 streamlit-autorefresh==1.0.1
-# Librería ORIGINAL que te funcionó para conexión
-git+https://github.com/williansandi/iqoptionapi-2025-Atualizada.git@egg=iqoptionapi
+# Librería oficial de PyPI que funciona
+iqoptionapi==6.8.0
